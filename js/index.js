@@ -14,7 +14,7 @@ const cardLink =document.createElement("a");
 itemList.setAttribute("class", "card mb-2");
 itemList.style.width ="18rem";
 image.setAttribute("class", "card-img-top");
-image.setAttribute("src", "./images/photo.jpg");
+image.setAttribute("src", post.photo);
 cardBody.setAttribute("class","card-body");
 cardTitle.setAttribute("class","card-title");
 cardTitle.textContent = post.title;
